@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed3191f3-11a7-430a-88f1-c216b6c40ea3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/Utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6254">
-              <caret line="207" column="130" selection-start-line="207" selection-start-column="130" selection-end-line="207" selection-end-column="130" />
+            <state relative-caret-position="600">
+              <caret line="185" column="44" selection-start-line="185" selection-start-column="44" selection-end-line="185" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -43,11 +44,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2332">
-              <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
+            <state relative-caret-position="602">
+              <caret line="137" column="42" lean-forward="true" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+              <folding>
+                <element signature="n#!!block;n#constructor#0;n#UserController#0" />
+                <element signature="n#!!block;n#onSubmit#0;n#UserController#0" />
+                <element signature="n#!!block;n#getPhoto#0;n#UserController#0" />
+                <element signature="n#!!block;n#getValues#0;n#UserController#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +71,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>form-user</find>
+      <find>example</find>
+      <find>Emai</find>
+      <find>44</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,10 +84,10 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/controllers/UserController.js" />
         <option value="$PROJECT_DIR$/models/User.js" />
         <option value="$PROJECT_DIR$/classes/Utils.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/controllers/UserController.js" />
       </list>
     </option>
   </component>
@@ -99,11 +109,6 @@
             <path>
               <item name="projeto-usuarios" type="b2602c69:ProjectViewProjectNode" />
               <item name="projeto-usuarios" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projeto-usuarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto-usuarios" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projeto-usuarios" type="b2602c69:ProjectViewProjectNode" />
@@ -171,7 +176,7 @@
       <updated>1560911304876</updated>
       <workItem from="1560911306792" duration="1129000" />
       <workItem from="1560990823836" duration="2443000" />
-      <workItem from="1561076736503" duration="936000" />
+      <workItem from="1561076736503" duration="5385000" />
     </task>
     <task id="LOCAL-00001" summary="43. G16 - Trabalhando com Datas, Getters e Setters">
       <created>1560993120356</created>
@@ -180,11 +185,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560993120356</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="44. G17 - Trabalhando com Métodos Estáticos">
+      <created>1561078314772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561078314772</updated>
+    </task>
+    <task id="LOCAL-00003" summary="45. G18 - Validando Formulários">
+      <created>1561080112797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561080112797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20471000" />
+    <option name="totallyTimeSpent" value="24920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1360" y="0" width="1920" height="1040" extended-state="6" />
@@ -259,16 +278,11 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="43. G16 - Trabalhando com Datas, Getters e Setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="43. G16 - Trabalhando com Datas, Getters e Setters" />
+    <MESSAGE value="44. G17 - Trabalhando com Métodos Estáticos" />
+    <MESSAGE value="45. G18 - Validando Formulários" />
+    <option name="LAST_COMMIT_MESSAGE" value="45. G18 - Validando Formulários" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -292,8 +306,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6254">
-          <caret line="207" column="130" selection-start-line="207" selection-start-column="130" selection-end-line="207" selection-end-column="130" />
+        <state relative-caret-position="600">
+          <caret line="185" column="44" selection-start-line="185" selection-start-column="44" selection-end-line="185" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="137" column="42" lean-forward="true" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#UserController#0" />
+            <element signature="n#!!block;n#onSubmit#0;n#UserController#0" />
+            <element signature="n#!!block;n#getPhoto#0;n#UserController#0" />
+            <element signature="n#!!block;n#getValues#0;n#UserController#0" />
+          </folding>
         </state>
       </provider>
     </entry>
