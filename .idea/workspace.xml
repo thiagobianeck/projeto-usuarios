@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed3191f3-11a7-430a-88f1-c216b6c40ea3" name="Default Changelist" comment="">
+    <list default="true" id="ed3191f3-11a7-430a-88f1-c216b6c40ea3" name="Default Changelist" comment="51. G24 - Trabalhando com Edição de Dados - Alterando dados do Objeto.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +22,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
-                  <caret line="795" column="71" selection-start-line="795" selection-start-column="71" selection-end-line="795" selection-end-column="71" />
+                <state relative-caret-position="285">
+                  <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
                   <folding>
                     <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,15 +39,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="729">
-                  <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
-                  <folding>
-                    <element signature="n#!!block;n#onSubmit#0;n#UserController#0" />
-                    <element signature="n#!!block;n#getPhoto#0;n#UserController#0" />
-                    <element signature="n#!!block;n#getValues#0;n#UserController#0" />
-                    <element signature="n#!!block;n#showPanelCreate#0;n#UserController#0" />
-                    <element signature="n#!!block;n#showPanelUpdate#0;n#UserController#0" />
-                  </folding>
+                <state relative-caret-position="57">
+                  <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="19">
+                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -70,6 +72,7 @@
       <find>Emai</find>
       <find>44</find>
       <find>form</find>
+      <find>form-user-up</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,10 +82,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/models/User.js" />
         <option value="$PROJECT_DIR$/classes/Utils.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/controllers/UserController.js" />
       </list>
     </option>
@@ -174,7 +177,7 @@
       <workItem from="1560990823836" duration="2443000" />
       <workItem from="1561076736503" duration="7134000" />
       <workItem from="1561088658697" duration="256000" />
-      <workItem from="1561234858229" duration="2575000" />
+      <workItem from="1561234858229" duration="7794000" />
     </task>
     <task id="LOCAL-00001" summary="43. G16 - Trabalhando com Datas, Getters e Setters">
       <created>1560993120356</created>
@@ -211,11 +214,32 @@
       <option name="project" value="LOCAL" />
       <updated>1561083689876</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="47. G20 - Trabalhando com Edição de Dados - Editando a View">
+      <created>1561239131135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561239131135</updated>
+    </task>
+    <task id="LOCAL-00007" summary="49. G22 - Trabalhando com Edição de Dados - Utilizando o laço For In para objetos">
+      <created>1561240082707</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561240082708</updated>
+    </task>
+    <task id="LOCAL-00008" summary="50. G23 - Trabalhando com Edição de Dados - Editando valores com Radio e Checkbox.">
+      <created>1561242685181</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561242685181</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29500000" />
+    <option name="totallyTimeSpent" value="34719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1360" y="0" width="1920" height="1040" extended-state="6" />
@@ -316,16 +340,11 @@
     <MESSAGE value="45. G18 - Validando Formulários" />
     <MESSAGE value="46. G19 - Atualizando Estatísticas - Usando dataset" />
     <MESSAGE value="47. G20 - Trabalhando com Edição de Dados - Editando a View" />
-    <option name="LAST_COMMIT_MESSAGE" value="47. G20 - Trabalhando com Edição de Dados - Editando a View" />
+    <MESSAGE value="49. G22 - Trabalhando com Edição de Dados - Utilizando o laço For In para objetos" />
+    <MESSAGE value="50. G23 - Trabalhando com Edição de Dados - Editando valores com Radio e Checkbox." />
+    <option name="LAST_COMMIT_MESSAGE" value="50. G23 - Trabalhando com Edição de Dados - Editando valores com Radio e Checkbox." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -342,8 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="795" column="71" selection-start-line="795" selection-start-column="71" selection-end-line="795" selection-end-column="71" />
+        <state relative-caret-position="285">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -351,17 +370,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
-          <folding>
-            <element signature="n#!!block;n#onSubmit#0;n#UserController#0" />
-            <element signature="n#!!block;n#getPhoto#0;n#UserController#0" />
-            <element signature="n#!!block;n#getValues#0;n#UserController#0" />
-            <element signature="n#!!block;n#showPanelCreate#0;n#UserController#0" />
-            <element signature="n#!!block;n#showPanelUpdate#0;n#UserController#0" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
         </state>
       </provider>
     </entry>
