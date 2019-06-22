@@ -80,19 +80,19 @@ class UserController {
         let isValid = true;
 
         [...this.formEl.elements].forEach((field, index) => {
-
             if(['name','email','password'].indexOf(field.name) > -1 && !field.value){
                 field.parentElement.classList.add('has-error');
                 isValid = false;
             }
 
-            if (field.name === "gender" && field.checked) {
-                user[field.name] = field.value;
+            if (field.name === "gender") {
+                if(field.checked) user[field.name] = field.value;
             } else if(field.name == 'admin'){
                 user[field.name] = field.checked;
             } else {
                 user[field.name] = field.value;
             }
+
         });
 
         if(!isValid){
@@ -138,8 +138,20 @@ class UserController {
                 let field = form.querySelector(`[name="${name.replace('_','')}"]`);
 
                 if(field) {
-                    if(field.type == 'file') continue;
-                    field.value = json[name];
+                    switch (field.type) {
+                        case 'file':
+                            continue;
+                            break;
+                        case 'radio':
+                            field = form.querySelector(`[name="${name.replace('_','')}"][value="${json[name]}"]`);
+                            field.checked = true;
+                            break;
+                        case 'checkbox':
+                            field.checked = json[name];
+                            break;
+                        default:
+                            field.value = json[name];
+                    }
                 }
            }
 
