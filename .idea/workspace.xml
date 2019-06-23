@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed3191f3-11a7-430a-88f1-c216b6c40ea3" name="Default Changelist" comment="51. G24 - Trabalhando com Edição de Dados - Alterando dados do Objeto.">
+    <list default="true" id="ed3191f3-11a7-430a-88f1-c216b6c40ea3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +21,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+                <state relative-caret-position="2287">
+                  <caret line="792" column="20" lean-forward="true" selection-start-line="792" selection-start-column="20" selection-end-line="792" selection-end-column="20" />
                   <folding>
-                    <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#form#0;n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -39,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+                <state relative-caret-position="360">
+                  <caret line="203" column="35" selection-start-line="203" selection-start-column="35" selection-end-line="203" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -73,6 +72,9 @@
       <find>44</find>
       <find>form</find>
       <find>form-user-up</find>
+      <find>foto</find>
+      <find>Foto</find>
+      <find>addLine</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,8 +86,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/models/User.js" />
         <option value="$PROJECT_DIR$/classes/Utils.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/controllers/UserController.js" />
       </list>
     </option>
@@ -177,7 +179,7 @@
       <workItem from="1560990823836" duration="2443000" />
       <workItem from="1561076736503" duration="7134000" />
       <workItem from="1561088658697" duration="256000" />
-      <workItem from="1561234858229" duration="7794000" />
+      <workItem from="1561234858229" duration="12373000" />
     </task>
     <task id="LOCAL-00001" summary="43. G16 - Trabalhando com Datas, Getters e Setters">
       <created>1560993120356</created>
@@ -235,11 +237,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561242685181</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="51. G24 - Trabalhando com Edição de Dados - Alterando dados do Objeto.">
+      <created>1561244260338</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561244260338</updated>
+    </task>
+    <task id="LOCAL-00010" summary="52. G25 - Trabalhando com Edição de Dados - Editando a Imagem com FileReader">
+      <created>1561264714135</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264714135</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34719000" />
+    <option name="totallyTimeSpent" value="39298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1360" y="0" width="1920" height="1040" extended-state="6" />
@@ -342,7 +358,9 @@
     <MESSAGE value="47. G20 - Trabalhando com Edição de Dados - Editando a View" />
     <MESSAGE value="49. G22 - Trabalhando com Edição de Dados - Utilizando o laço For In para objetos" />
     <MESSAGE value="50. G23 - Trabalhando com Edição de Dados - Editando valores com Radio e Checkbox." />
-    <option name="LAST_COMMIT_MESSAGE" value="50. G23 - Trabalhando com Edição de Dados - Editando valores com Radio e Checkbox." />
+    <MESSAGE value="51. G24 - Trabalhando com Edição de Dados - Alterando dados do Objeto." />
+    <MESSAGE value="52. G25 - Trabalhando com Edição de Dados - Editando a Imagem com FileReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="52. G25 - Trabalhando com Edição de Dados - Editando a Imagem com FileReader" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/classes/Utils.js">
@@ -359,17 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -377,10 +384,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2287">
+          <caret line="792" column="20" lean-forward="true" selection-start-line="792" selection-start-column="20" selection-end-line="792" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#form#0;n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="360">
+          <caret line="203" column="35" selection-start-line="203" selection-start-column="35" selection-end-line="203" selection-end-column="35" />
         </state>
       </provider>
     </entry>
